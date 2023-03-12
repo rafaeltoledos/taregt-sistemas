@@ -2,9 +2,19 @@ package entities;
 
 public class Faturamento {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private String dia;
+	private String valor;
+	
+	public String getDia() {
+		return dia;
 	}
-
+	public void setDia(String dia) {
+		this.dia = dia;
+	}
+	public String getValor() {
+		return valor;
+	}
+	public void setValor(String valor) {
+		this.valor = valor;
+	}
 }
